@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_4"
+    android:layout_height="match_parent"
+    tools:context=".Writer">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Dashboard for Writer"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/myprofile"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/mainac"
+            android:text="My Profile"
+            android:textAllCaps="false"
+            android:textColor="#8B44EF"
+            android:textSize="17dp"
+            />
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="130dp"
+            android:layout_marginStart="30dp"
+            android:layout_height="50dp"
+            android:background="@drawable/mainac"
+            android:text="History"
+            android:textAllCaps="false"
+            android:textColor="#8B44EF"
+            android:textSize="17dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/active"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/mainac"
+            android:text="Active"
+            android:textAllCaps="false"
+            android:textColor="#8B44EF"
+            android:textSize="17dp"
+            />
+
+        <Button
+            android:id="@+id/appect"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/mainac"
+            android:layout_marginStart="30dp"
+            android:text="request"
+            android:paddingHorizontal="10dp"
+            android:textAllCaps="false"
+            android:textColor="#8B44EF"
+            android:textSize="17dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="190dp">
+
+        <Button
+            android:id="@+id/point"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/button"
+            android:text="Reward Point"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/alert"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:layout_marginStart="30dp"
+            android:text="request"
+            android:paddingHorizontal="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/review"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/button"
+            android:text="Review"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            />
+
+        <Button
+            android:id="@+id/chatbox"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:layout_marginStart="30dp"
+            android:text="Chatbox"
+            android:paddingHorizontal="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

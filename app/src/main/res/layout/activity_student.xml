@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_4"
+    android:layout_height="match_parent"
+    tools:context=".student">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Dashboard for student"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/myprofile1"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/mainac"
+            android:text="My Profile"
+            android:textAllCaps="false"
+            android:textColor="#8B44EF"
+            android:textSize="17dp"
+            />
+
+        <Button
+            android:id="@+id/language"
+            android:layout_width="130dp"
+            android:layout_marginStart="30dp"
+            android:layout_height="50dp"
+            android:background="@drawable/mainac"
+            android:text="Language"
+            android:textAllCaps="false"
+            android:textColor="#8B44EF"
+            android:textSize="17dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/mainac"
+            android:text="Location"
+            android:textAllCaps="false"
+            android:textColor="#8B44EF"
+            android:textSize="17dp"
+            />
+
+        <Button
+            android:id="@+id/findwriter"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/mainac"
+            android:layout_marginStart="30dp"
+            android:text="Find Writer"
+            android:paddingHorizontal="10dp"
+            android:textAllCaps="false"
+            android:textColor="#8B44EF"
+            android:textSize="17dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="170dp">
+
+        <Button
+            android:id="@+id/chat1"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/button"
+            android:text="ChatBox"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/voice"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:layout_marginStart="30dp"
+            android:text="Voice Input"
+            android:paddingHorizontal="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/schedule"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/button"
+            android:text="My Schedule"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:layout_marginStart="30dp"
+            android:text="Update"
+            android:paddingHorizontal="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
