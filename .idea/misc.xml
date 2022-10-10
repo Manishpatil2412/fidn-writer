@@ -14,6 +14,7 @@
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/drawable/mainac.xml" value="0.175" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/drawable/man.xml" value="0.18703703703703703" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_appect.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_chats1.xml" value="0.1" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_contacts.xml" value="0.1734375" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_history.xml" value="0.1" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_loca1.xml" value="0.11666666666666667" />
@@ -22,10 +23,12 @@
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_main2.xml" value="0.1734375" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_myprofile.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_myschedule.xml" value="0.2" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_signup.xml" value="0.25" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_songs.xml" value="0.1734375" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_splash.xml" value="0.22" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_student.xml" value="0.18" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_studentprofile.xml" value="0.25" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_update.xml" value="0.19375" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_voice.xml" value="0.1" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/MULTIX/app/src/main/res/layout/activity_writer.xml" value="0.18" />

@@ -62,10 +62,10 @@
         android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
-        android:text="Sign up"
         android:background="@drawable/button"
+        android:text="Sign up"
         android:textColor="@color/white"
-        android:textSize="20dp"/>
+        android:textSize="20dp" />
 
 
 

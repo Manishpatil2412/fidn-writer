@@ -9,6 +9,8 @@ import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 
 class signup : AppCompatActivity() {
 
@@ -17,7 +19,7 @@ class signup : AppCompatActivity() {
     private lateinit var bpassword: EditText
     private lateinit var bsignup: Button
     private lateinit var mauth: FirebaseAuth
-    private lateinit var bath: DatabaseReference
+
 
 
 
@@ -49,7 +51,7 @@ class signup : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     // Sign in success, update UI with the signed-in user's information
-                        //addUserToDataBase(name,email,mauth.currentUser?.uid!!)
+                        addUserToDataBase(name,email,mauth.currentUser?.uid!!)
                     val int=Intent(this@signup,MainActivity::class.java)
                     startActivity(int)
                 } else {
@@ -59,8 +61,11 @@ class signup : AppCompatActivity() {
             }
     }
 
-   /*private fun addUserToDataBase(name: String,email: String, uid: String) {
-       bath=FirebaseDatabase.getInstance().getReference()
-        bath.child("user").child(uid).setValue(User(name,email,uid))
-    }*/
+   private fun addUserToDataBase(name: String,email: String, uid: String) {
+       //bath=FirebaseDatabase.getInstance().getReference()
+        //bath.child("user").child(uid).setValue(User(name,email,uid))
+       val database = Firebase.database
+       val myRef = database.getReference("user").child(uid)
+       myRef.setValue(User(name,email,uid))
+    }
 }
