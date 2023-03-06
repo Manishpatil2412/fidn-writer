@@ -33,7 +33,7 @@ class student : AppCompatActivity() {
             startActivity(intent)
         }
         findwritter.setOnClickListener {
-            val intent= Intent(this,findwriter::class.java)
+            val intent= Intent(this,UserListActivity::class.java)
             startActivity(intent)
         }
         chat1.setOnClickListener {
